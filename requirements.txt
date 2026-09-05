@@ -1,0 +1,8 @@
+albumentations
+gradio
+numpy
+ollama
+pandas
+Pillow
+PyMuPDF
+ultralytics
