@@ -1,0 +1,298 @@
+{
+  "test": [
+    {
+      "id": 20,
+      "label": "titre",
+      "confidence": 0.39689478278160095,
+      "box": [
+        154,
+        152,
+        3707,
+        351
+      ],
+      "column": 5,
+      "text": "",
+      "crop_path": "crops\\titre\\test_box020_titre.png"
+    },
+    {
+      "id": 7,
+      "label": "texte",
+      "confidence": 0.7485222220420837,
+      "box": [
+        3188,
+        304,
+        3712,
+        445
+      ],
+      "column": 9,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 11,
+      "label": "numero",
+      "confidence": 0.6874000430107117,
+      "box": [
+        99,
+        432,
+        286,
+        574
+      ],
+      "column": 1,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 1,
+      "label": "illustration",
+      "confidence": 0.9435919523239136,
+      "box": [
+        1447,
+        458,
+        1923,
+        930
+      ],
+      "column": 4,
+      "text": "",
+      "crop_path": "crops\\illustration\\test_box001_illustration.png"
+    },
+    {
+      "id": 4,
+      "label": "texte",
+      "confidence": 0.8164581060409546,
+      "box": [
+        691,
+        494,
+        1454,
+        922
+      ],
+      "column": 3,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 3,
+      "label": "texte",
+      "confidence": 0.9195374250411987,
+      "box": [
+        2546,
+        520,
+        2817,
+        739
+      ],
+      "column": 8,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 21,
+      "label": "texte",
+      "confidence": 0.3530987501144409,
+      "box": [
+        233,
+        1086,
+        703,
+        1433
+      ],
+      "column": 1,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 10,
+      "label": "texte",
+      "confidence": 0.6948506236076355,
+      "box": [
+        649,
+        1111,
+        1437,
+        1797
+      ],
+      "column": 3,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 14,
+      "label": "illustration",
+      "confidence": 0.5992799401283264,
+      "box": [
+        1444,
+        1119,
+        2032,
+        1618
+      ],
+      "column": 4,
+      "text": "",
+      "crop_path": "crops\\illustration\\test_box014_illustration.png"
+    },
+    {
+      "id": 18,
+      "label": "texte",
+      "confidence": 0.45613211393356323,
+      "box": [
+        3318,
+        1119,
+        3394,
+        1227
+      ],
+      "column": 9,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 6,
+      "label": "texte",
+      "confidence": 0.792151927947998,
+      "box": [
+        2492,
+        1121,
+        2759,
+        1362
+      ],
+      "column": 8,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 15,
+      "label": "texte",
+      "confidence": 0.5966461300849915,
+      "box": [
+        2375,
+        1129,
+        2480,
+        1240
+      ],
+      "column": 7,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 19,
+      "label": "texte",
+      "confidence": 0.42146146297454834,
+      "box": [
+        3160,
+        1925,
+        3455,
+        2072
+      ],
+      "column": 9,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 16,
+      "label": "texte",
+      "confidence": 0.5799503922462463,
+      "box": [
+        236,
+        1965,
+        676,
+        2208
+      ],
+      "column": 1,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 9,
+      "label": "texte",
+      "confidence": 0.7043991684913635,
+      "box": [
+        671,
+        1979,
+        1436,
+        2518
+      ],
+      "column": 3,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 13,
+      "label": "illustration",
+      "confidence": 0.6323110461235046,
+      "box": [
+        1431,
+        1982,
+        1968,
+        2336
+      ],
+      "column": 4,
+      "text": "",
+      "crop_path": "crops\\illustration\\test_box013_illustration.png"
+    },
+    {
+      "id": 2,
+      "label": "illustration",
+      "confidence": 0.9314362406730652,
+      "box": [
+        1465,
+        2625,
+        1857,
+        3148
+      ],
+      "column": 4,
+      "text": "",
+      "crop_path": "crops\\illustration\\test_box002_illustration.png"
+    },
+    {
+      "id": 17,
+      "label": "texte",
+      "confidence": 0.5505224466323853,
+      "box": [
+        2167,
+        2628,
+        2307,
+        2746
+      ],
+      "column": 6,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 5,
+      "label": "texte",
+      "confidence": 0.7986705899238586,
+      "box": [
+        3239,
+        2652,
+        3324,
+        2753
+      ],
+      "column": 9,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 8,
+      "label": "texte",
+      "confidence": 0.7195781469345093,
+      "box": [
+        718,
+        2661,
+        1466,
+        3105
+      ],
+      "column": 3,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    },
+    {
+      "id": 12,
+      "label": "texte",
+      "confidence": 0.6838858127593994,
+      "box": [
+        2495,
+        3200,
+        2776,
+        3447
+      ],
+      "column": 8,
+      "text": "[Erreur OCR: llama-server process has terminated: exit status 0xe06d7363: NTSTATUS 0xe06d7363 (status code: 500)]",
+      "crop_path": ""
+    }
+  ]
+}

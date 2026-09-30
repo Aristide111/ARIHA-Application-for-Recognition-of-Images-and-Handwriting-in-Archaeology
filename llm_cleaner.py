@@ -6,14 +6,15 @@ from config import CLEANER_LLM_MODEL, DESTINATIONS_VALIDES, CORRECTIONS_DIRECTES
 # Nettoyage de la colonne par LLM
 
 def clean_destination(text: str) -> str:
+# si texte absent ? pour signaler le manque
     if not text or pd.isna(text):
         return "?"
-
+# strip et lower pour normaliser le texte en enlevant espace et en formattant en minuscule
     text_clean = str(text).strip().lower()
 
     if text_clean in CORRECTIONS_DIRECTES:
         return CORRECTIONS_DIRECTES[text_clean]
-
+# prompt de nettoyage qui se base sur destination valides, ajout du ? pour signaler l'erreur
     prompt = (
         f"Tu es un expert en archéologie. Voici une chaîne brute extraite par HTR : '{text}'.\n"
         f"Sélectionne la destination exacte la plus proche parmi cette liste de destinations valides :\n"

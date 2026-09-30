@@ -18,8 +18,8 @@ CONF_THRESHOLD = 0.25
 
 # Modèles HTR et LLM.
 
-OCR_MODEL = "glm-ocr:latest"
-CLEANER_LLM_MODEL = "qwen2.5:14b"
+OCR_MODEL = "glm-ocr:latest" # utilisé pour l'HTR des documents
+CLEANER_LLM_MODEL = "qwen2.5:14b" # utilisé pour comparer les résultats avec la liste de destination
 
 # Labels détectés par le modèle YOLO
 
@@ -106,8 +106,3 @@ CORRECTIONS_DIRECTES = {
     "p.a.m.": "Palestine Arch. Museum",
     "destination": "?",
 }
-
-# Liste des symbole Ibid
-
-SYMBOLES_DITO = {'"', '""', "''", "n", "m", "h", "id", "idem", "-", "—", ".", "do"}
-#MOTS_PARASITES = {"brown", "system", "systems", "u", "inkun"}
